@@ -1,76 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sam Gordon</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sam Gordon</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-black text-sky-300">
-  <header>
-    <h1 class="nameFirstLast">Sam Gordon</h1>
-    <p id="contact">Email: gordsam18@gmail.com | Location: Salt Lake City, Utah</p>
-    <hr>
+<body class="bg-black text-sky-300 font-sans leading-relaxed px-6 py-10">
+  <header class="text-center mb-10">
+    <h1 class="text-4xl font-extrabold text-white">Sam Gordon</h1>
+    <p class="text-sm mt-2 text-sky-400">Email: gordsam18@gmail.com | Location: Salt Lake City, Utah</p>
+    <hr class="mt-4 border-sky-700">
   </header>
 
-  <section id="summary">
-    <h2>Professional Summary</h2>
-    <p></p>
-  </section>
+  <main class="max-w-4xl mx-auto space-y-10">
+    <section id="summary">
+      <h2 class="text-2xl font-bold border-b border-sky-700 pb-1 mb-2">Professional Summary</h2>
+      <p>
+        Detail-oriented and results-driven technical specialist with a strong foundation in software development, AI, and data analysis. Proven success at Tesla optimizing neural network performance through high-accuracy data labeling and cross-functional collaboration. Fast learner, team player, and effective communicator with hands-on experience in both support and engineering environments.
+      </p>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Proficient in Python, JavaScript, C#, C++, HTML, CSS, SQL</li>
-      <li>Experience with machine learning, neural networks, and computer vision at Tesla</li>
-      <li>Able to work in a fast-paced environment, learn quickly and be able to prioritize assignments</li>
-      <li>Effective problem-solving, debugging, and technical communication skills</li>
-    </ul>
-  </section>
-
-  <section id="experience">
-    <h2>Professional Experience</h2>
-
-    <div>
-      <h3>Data Annotation Specialist II - Tesla </h3>
-      <p><em>Draper, Utah | Sept 2023 - Present</em></p>
-      <ul>
-        <li>Recognized as a top 10% performer, contributing to high-impact AI and neural network projects</li>
-        <li>Led multiple training sessions to enhance annotation accuracy and neural network performance</li>
-        <li>Collaborated with top-tier engineers to refine data-labeling methodologies</li>
-        <li>Applied analytical thinking and problem-solving to optimize autonomous vehicle AI models</li>
+    <section id="skills">
+      <h2 class="text-2xl font-bold border-b border-sky-700 pb-1 mb-2">Skills</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li>Proficient in Python, JavaScript, C#, C++, HTML, CSS, SQL</li>
+        <li>Experience with machine learning, neural networks, and computer vision at Tesla</li>
+        <li>Able to work in a fast-paced environment, learn quickly, and prioritize assignments</li>
+        <li>Effective problem-solving, debugging, and technical communication skills</li>
       </ul>
-    </div>
+    </section>
 
-    <div>
-      <h3>Customer Support - Simple.RFID</h3>
-      <p><em>Orem, Utah | Month Year - Month Year</em></p>
-      <ul>
-        <li>Worked directly with engineers to optimize software based on client feedback</li>
-        <li>technical guidance to 30+ customers, ensuring smooth onboarding and ongoing support</li>
-        <li>Developed a new customer onboarding process, increasing retention by 40%</li>
-        <li>Conducted API integrations and software customizations to enhance client experience</li>
+    <section id="experience">
+      <h2 class="text-2xl font-bold border-b border-sky-700 pb-1 mb-4">Professional Experience</h2>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold">Data Annotation Specialist II - Tesla</h3>
+        <p class="italic text-sm text-sky-400">Draper, Utah | Sept 2023 - Present</p>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li>Recognized as a top 10% performer, contributing to high-impact AI and neural network projects</li>
+          <li>Led multiple training sessions to enhance annotation accuracy and neural network performance</li>
+          <li>Collaborated with top-tier engineers to refine data-labeling methodologies</li>
+          <li>Applied analytical thinking and problem-solving to optimize autonomous vehicle AI models</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold">Customer Support - Simple.RFID</h3>
+        <p class="italic text-sm text-sky-400">Orem, Utah | Month Year - Month Year</p>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li>Worked directly with engineers to optimize software based on client feedback</li>
+          <li>Provided technical guidance to 30+ customers, ensuring smooth onboarding and ongoing support</li>
+          <li>Developed a new customer onboarding process, increasing retention by 40%</li>
+          <li>Conducted API integrations and software customizations to enhance client experience</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2 class="text-2xl font-bold border-b border-sky-700 pb-1 mb-2">Education</h2>
+      <p>
+        <strong>Applied Technologies</strong> – Brigham Young University - Idaho<br>
+        <span class="text-sm italic text-sky-400">Rexburg, Idaho | 2025</span>
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2 class="text-2xl font-bold border-b border-sky-700 pb-1 mb-2">Projects</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li><strong>Fantasy Football Analyzer</strong> – A simple fantasy football stat visualizer</li>
+        <li><strong>Algorithm Visualizer</strong> – A simple sorting and searching algorithm visualizer</li>
       </ul>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <section id="education">
-    <h2>Education</h2>
-    <p><strong>Applied Technologies</strong> - Brigham Young University - Idaho <br>
-    RexBurg, Idaho | 2025</p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <p><strong>Fantasy Football analyzer</strong> - A simple fantasy football stat visualizer</p>
-    <p><strong>Algorithm Visualizer</strong> - A simple sorting and searching algorthim visualizer</p>
-
-  </section>
-
-  <footer>
-    <hr>
+  <footer class="text-center text-xs text-sky-500 mt-12">
+    <hr class="mb-4 border-sky-700">
     <p>&copy; 2025 Sam Gordon</p>
   </footer>
+
+  <script src="script/main.js"></script>
 </body>
-<script src="script/main.js"></script>
 </html>
